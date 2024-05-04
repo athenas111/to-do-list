@@ -1,0 +1,23 @@
+// learning from supersimpledev on yt btw
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays and loops</title>
+</head>
+<body>
+    <script>
+      const myArray =  [10, 20, 30];
+
+      myArray[0] // gives the first value/position of the array ; it will display 10
+      myArray[0] = 90 // to change the value, so now 10 is 99 
+
+      const kittyArray = [1, 'hello kitty', true, {name: 'kitty'}, [1, 2]] // arrays can have multiple features inside it :) 
+     console.log(kittyArray.lenght); 
+     kittyArray.push('kitty kitty'); //push a item inside the array
+     kittyArray.splice([5, 1); // kinda delete the value. the first nunmber is the position. the second is the quantity of removed itens 
+     
+    </script>
+</body>
+</html>
